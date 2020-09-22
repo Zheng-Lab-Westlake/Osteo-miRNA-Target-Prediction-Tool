@@ -6,17 +6,17 @@ Use the follow command to download:
 
 	$ git clone https://github.com/Zheng-Lab-Westlake/Osteo-miRNA-Target-Prediction-Tool.git
 
-** The miRDB data used in the tool was gziped, please unzip it before use:
+### The miRDB data used in the tool was gziped, please unzip it before use:
 
 	$ cd data
 	$ gunzip miRDB_v6.0_hsaOnly.txt.gz
 
-** Run the follow command to see the help message:
+### Run the follow command to see the help message:
 
 	$ cd ..
 	$ python ./miRNA_Target_Prediction.py -H
 
-** Arguments:
+### Arguments:
 
 	-H/-h	Show this help-doc.
 
@@ -36,12 +36,12 @@ Use the follow command to download:
 	-outputDir	A folder will be used to store results.
 
 
-** An example is given, run it in the command line for details:
+### An example is given, run it in the command line for details:
 
 	$ sh example.sh
 
 
-** Output folder/files into -outputDir:
+### Output folder/files into -outputDir:
 
 	TargetScan_v7.2/TarScan-miRNA.tsv, prediction of TargetScan results.
 	miRDB_v6.0/miRDB_NM-miRNA.tsv, prediction of miRDB results.
