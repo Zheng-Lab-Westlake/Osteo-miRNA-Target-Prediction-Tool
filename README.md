@@ -4,7 +4,7 @@ This is an easily-to-use tool for users to predict human osteoblast-specific tar
 
 Use the follow command to download:
 
-	$ git clone https://github.com/WeiYang-BAI/Osteo-miRNA-Target-Prediction-Tool.git
+	$ git clone https://github.com/Zheng-Lab-Westlake/Osteo-miRNA-Target-Prediction-Tool.git
 
 The miRDB data used in the tool was gziped, please unzip it before use:
 
