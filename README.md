@@ -43,6 +43,6 @@ Use the follow command to download:
 
 ### Output folder/files into -outputDir:
 
-	TargetScan_v7.2/TarScan-miRNA.tsv, prediction of TargetScan results.
-	miRDB_v6.0/miRDB_NM-miRNA.tsv, prediction of miRDB results.
+	TargetScan_v7.2/TarScan-miRNA.tsv, target prediction results of TargetScan.
+	miRDB_v6.0/miRDB_NM-miRNA.tsv, target prediction results of miRDB.
 	final_targets/Targets-miRNA.tsv, the union of TargetScan and miRDB results, and filterd by AGO2 CLIP-seq data.
